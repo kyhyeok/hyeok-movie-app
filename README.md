@@ -1,3 +1,7 @@
+# GuessWhatPaint
+
+간단한 영화 소개 페이지
+
 ============== Introduction 시작 ================
 
 node.js를 다운로드 받고 터미널에 node -v로 버전 및 설치여부 확인
@@ -16,4 +20,36 @@ npx create-react-app 폴더이름 입력 (대문자 안됌)
 
 ex) npx create-react-app hyeok-movie-app
 
+package.json에서 script 부분에
+
+"start": "react-scripts start",
+
+"build": "react-scripts build",
+
+"test": "react-scripts test",
+
+"eject": "react-scripts eject
+
+있는데
+
+"test": "react-scripts test",
+
+"eject": "react-scripts eject
+
+지워도 된다
+
+yarn.lock도 필요 없으니 지워도 된다. (이유는 나중에 찾자)
+
+src 폴더에는 App.js와 index.js만 남기고 전부 지운다
+
+지운 파일에 맞에 app.js와 index.js에서 소스 수정한다
+
 ============== Setup 끝 ================
+
+============== JSX & Props 시작 ================
+
+npm i prop-types
+
+data type을 확인해 주는 모듈
+
+============== JSX & Props 끝 ================
