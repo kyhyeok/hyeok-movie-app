@@ -53,3 +53,29 @@ npm i prop-types
 data type을 확인해 주는 모듈
 
 ============== JSX & Props 끝 ================
+
+============== State 시작 ================
+
+constructor(props){super(props)} ====> javascript 문법
+
+react용은 아래와 같다
+
+componentDidMount(페이지 로드 직후 실행된다)
+
+componentDidUpdate(컴포넌트 업데이트 직후 실행된다)
+
+componentDidWillUnMount(컴포넌트 이동하거나 사라질때?? 실행된다)
+
+============== State 끝 ================
+
+============== Making the Movie App 시작 ================
+
+fetch를 사용하면 되는데
+
+이 수업에서는 axios를 사용한다
+
+npm i axios
+
+jsonview를 크롬에 설치라면 .json데이터를 깔끔하게 볼 수 있다
+
+============== Making the Movie App 끝 ================
