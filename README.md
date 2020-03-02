@@ -79,3 +79,17 @@ npm i axios
 jsonview를 크롬에 설치라면 .json데이터를 깔끔하게 볼 수 있다
 
 ============== Making the Movie App 끝 ================
+
+============== Routing 시작 ================
+
+npm i react-router-dom
+
+============== Routing 끝 ================
+
+============== Github Pages 시작 ================
+
+npm i gh-pages
+
+npm run build를 해서 build파일을 생성한다.
+
+============== Github Pages 끝 ================
